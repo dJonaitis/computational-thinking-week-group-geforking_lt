@@ -1,2 +1,2 @@
 def Tonda():
-    print("Tonda")
+    return "Tonda"
