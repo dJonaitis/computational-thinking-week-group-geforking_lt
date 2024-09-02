@@ -1,9 +1,12 @@
-from Danielius.py import Danielius
-from Tadas.py import Tadas
-from Fleming.py import Fleming
+from Danielius import Danielius
+from Tadas import Tadas
+from Fleming import Fleming
+from Yujia import Yujia
+from Nojus import Nojus
+from Tonda import Tonda
 
 
 def group():
-    return "This is Team Geforking_it. We are:"
-
+    print(f"This is Team Geforking_it. We are: {Danielius()}, {Tadas()}, {Fleming()}, {Yujia()}, {Nojus()}, {Tonda()}")
+    
 
