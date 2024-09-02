@@ -1,5 +1,3 @@
 def name():
-  print "Tadas"
-
-name
+  return "Tadas"
   
