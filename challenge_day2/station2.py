@@ -1,6 +1,8 @@
 import datetime
 
 def solution_station_2(calenderday):
+    #Converting to datetime for easy reading
+    calenderday = datetime.datetime.strptime(calenderday, '%Y-%m-%d')
     # Mapping Japanese weekdays in case Japanese is not preinstalled on the device
     days_in_japanese = {
         0: '月曜日',  # Monday
