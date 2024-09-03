@@ -1,3 +1,5 @@
+import numpy as np
+
 def solution_station_6(input):
-    pass
-    return
+    sine = np.sin(input)
+    return sine
