@@ -13,10 +13,6 @@ def solution_station_2(calenderday):
         5: '土曜日',  # Saturday
         6: '日曜日'   # Sunday
     }
-
-    format = '%Y-%m-%d'
-    calenderday = datetime.datetime.strptime(calenderday, format)
-
     # Get the day of the week as an integer (0=Monday, 6=Sunday)
     day_of_week = calenderday.weekday()
 
