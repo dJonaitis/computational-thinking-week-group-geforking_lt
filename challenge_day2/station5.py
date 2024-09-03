@@ -110,5 +110,3 @@ student_data = {
 }
 def solution_station_5(input):
     return int(student_data[input])
-
-print(solution_station_5('Brendan'))
