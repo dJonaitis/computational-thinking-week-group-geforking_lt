@@ -11,6 +11,6 @@ def solution_station_5(input):
         else:
             names.append(i)  
         j+=1
-    index = names.index(['Viggo Pauw'])
+    index = names.index([input])
     team = teams[index][-1][-1]
     return team
