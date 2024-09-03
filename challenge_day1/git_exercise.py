@@ -10,3 +10,4 @@ def group():
     print(f"This is Team Geforking_it. We are: {Danielius()}, {Tadas()}, {Fleming()}, {Yujia()}, {Nojus()}, {Tonda()}")
     
 
+group()
